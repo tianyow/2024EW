@@ -153,7 +153,7 @@ header {
   width: 100%;
 }
 
-.showLogo-wrapper {}
+/* .showLogo-wrapper {} */
 
 /* MAIN
 ---------------------------------- */
@@ -197,6 +197,7 @@ header {
   transform: translate(-50%, -50%);
   transition: 0.5s;
   -webkit-mask: linear-gradient(135deg, #000c 40%, #000, #000c 90%) 100% 100%/250% 250%;
+  mask: linear-gradient(135deg, #000c 40%, #000, #000c 90%) 100% 100%/250% 250%;
   animation: fadeAndScale 1.3s ease-in-out, shinning 5s infinite;
 }
 
@@ -347,7 +348,7 @@ main h2 {
 
 /* SHOW-REGISTER
 ---------------------------------- */
-.show-register {}
+/* .show-register {} */
 
 .ecode-wrapper {
   display: flex;
@@ -436,7 +437,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-.social-links {}
+/* .social-links {} */
 
 .social-links ul {
   list-style: none;
@@ -512,10 +513,10 @@ footer {
 }
 
 @media (max-width: 768px) {
-  #sec-hero {
-    /* flex-direction: column; */
-    /* height: auto; */
-  }
+  /* #sec-hero {
+    flex-direction: column;
+    height: auto;
+  } */
 
   #sec-hero h1 {
     width: 100%;
