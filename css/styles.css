@@ -183,7 +183,7 @@ header {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 900;
   /* transform: skew(-9deg, 0deg); */
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, .9));
+  filter: drop-shadow(0 -5px 10px rgba(0, 10, 60, 0.9));
   letter-spacing: 3px;
   text-wrap: balance;
   text-align: center;
@@ -467,11 +467,13 @@ footer {
   width: 100%;
   height: 100%;
 }
+
 @media (max-width: 1280px) {
   #sec-hero {
     min-height: 100vh;
   }
 }
+
 @media (max-width: 1024px) {
   .ecode-wrapper {
     display: block;
@@ -482,6 +484,7 @@ footer {
   .ecode-txt {
     padding: 1rem 8vw;
   }
+
   .ecode-arrow {
     display: none;
   }
